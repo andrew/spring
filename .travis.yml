@@ -9,3 +9,4 @@ env:
   - RAILS_VERSION="~> 4.1.0"
 before_script:
   - travis_retry gem install rails --version "$RAILS_VERSION"
+script: bundle exec rake
